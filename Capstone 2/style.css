@@ -1,51 +1,26 @@
- .gradient{
-	background: linear-gradient(300deg, #1A120B, #3C2A21, #D5CEA3);
-	background-size: 180% 180%;
-	animation: gradient 25s ease infinite;
+.nav-link:hover{
+    color: #DDD1A3;
+    opacity: 1.5;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+#hero{
+    overflow-x: hidden;
 }
 
-h1{
-    font-family: 'Lora', serif;
-    font-style: italic;
+#profile{
+    border-radius: 20%;
 }
 
-p{
-    color: white;
-    font-family: 'Instrument Sans', sans-serif;
-    
+#hero{
+    background-color: #18191a;
+    color: #DDD1A3;
+
 }
 
-.profpic{
-    height: 100px;
-    width: 95px;
-    border-radius: 50%;
-    border: #3C2A21 solid;
-    filter: drop-shadow(15px 10px 20px black);
-}
-
-h2{
-    font-family: 'Lora', serif;
-}
-
-#paragraphbelowintro{
-    line-height: 100%;
-}
-
-#carousel{
-    width: 50%;
-
+.btn:hover{
+    color: Black
+    opacity: 2;
+    background-color: #DDD1A3;
 }
 
 .card-cover {
@@ -54,10 +29,6 @@ h2{
     background-size: cover;
 }
 
-.nav-item{
-    color: white;
-}
-
-footer{
-    color: white;
+#logo{
+    background-color: black;
 }
