@@ -1,0 +1,54 @@
+#profilepic{
+    border: white solid;
+    border-radius: 50%;
+    box-shadow: 5px 10px 40px;
+}
+
+.gradient{
+	background: linear-gradient(300deg, #0C134F, #1D267D, #5C469C, #D4ADFC);
+	background-size: 180% 180%;
+	animation: gradient 25s ease infinite;
+    overflow: hidden;
+    padding: 50px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1{
+    color: white;
+}
+
+#object{
+    color: white;
+}
+
+.list-group{
+    line-height: 25px;
+}
+
+.icon{
+    border-radius: 25%;
+    border: black solid;
+    padding: 1%;
+}
+
+#contact{
+    line-height: 15px;
+    color: white;
+}
+
+#summary{
+    background-color: #D4ADFC;
+    
+}
+

@@ -5,30 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+
 </head>
 <body>
-    <h1>Junelle Christian M. Lim</h1>
-    <img src="./Images/1x1.jpg" height="100"/>
 
-    <h2>Summary</h2>
-        <ul>
-            <li>To be able to work in a challenging environment to constantly learn, contribute and grow along with the organization.</li>
-            <li>To look for an opportunity to enhance my skills to continue doing the best of my abilities for an organization that takes pride in their people.</li>
-            <li>To establish myself as a service professional as early as now to be able to provide excellent service to my clients in the future.</li>
-        </ul>
-    <hr/>
+    <section class="gradient">
+        <div class=text-center id="intro">
+            <img class="d-block mx-auto mb-4" src="./Images/1x1.jpg" alt="" width="100" height="100" id="profilepic" alt="picture">
+            <h1>Junelle Christian M. Lim</h1><br>
+            <div class="col-lg-6 mx-auto" id="contact">
 
-    <h2>Education</h2>
-        <ul>
-            <li>Bachelor of Science in Information Technology - Polytechnic University of the Philippines (2014-2018)</li>
-        </ul>
-    <hr/>
+                <h3>Contact Information</h3>
+                <p>39A 17th Avenue Brgy. San Roque Cubao, Quezon City</p>
+                <p>+63 906-416-8048&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;junellelim618@gmail.com</p><br>
+            </div>
+        </div>
+    </section>
 
-    <h2>Work Experience</h2>
-        <ul>
-            <li>Desktop Support Associate Technician - TTEC</li>
-                <ul>
-                    <li>October 2018 - November 2020</li>
+    <div class="p-5 text-center" id="summary">
+        <h1 class="text-body-emphasis">Personal Summary</h1>
+        <p class="lead">
+          Technical Support for 4+ years of experience. Able to resolve and support concerns remotely and handling of clients both on and off-shore. Self-taught programmer and completed multiple courses online to be capable and equipped with not just hardware support but also software development and support skills. 
+        </p>
+      </div>
+
+
+        <div class="p-5 text-center bg-body-tertiary">
+            <div class="container">
+              <h2 class="text-body-emphasis">Education</h2>
+              <p class="col-lg-8 mx-auto lead">
+                Bachelor of Science in Information Technology - Polytechnic University of the Philippines (2014-2018)
+              </p>
+            </div>
+        </div>
+
+    <div class="container">
+
+        <div class="d-flex flex-column flex-md-row p-4 gap-5 py-md-5 align-items-center justify-content-center">
+            <h2 class="text-body-emphasis">Work Experience</h2>
+            <div class="list-group">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                  <div>
+                    <h6 class="mb-0">Desktop Support Associate Technician</h6>
                         <ul>
                             <li>Handle inbound calls and chats from athome agents and document using Asknow-Servicenow.</li>
                             <li>Monitor emails for updates. </li>
@@ -37,10 +58,13 @@
                             <li>Basic troubleshooting on virtual desktops such as VMware and Citrix.</li>
                             <li>Support through LMI (LogMeIn), Zoom or Screenmeet.</li>
                         </ul>
-                </ul>
-            <li>Senior Desktop Support Technician</li>
-                <ul>
-                    <li>November 2020 - Present</li>
+                  </div>
+                  <large class="opacity-50 text-nowrap">2018-2020</large>
+                </div><br>
+
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                  <div>
+                    <h6 class="mb-0">Senior Desktop Support Technician</h6>
                         <ul>
                             <li>Supervise TCI and ORT classes to make sure they hit the required AHT and ample support to any who will have an issue with their on-boarding check.</li>  
                             <li>L2 POC role to monitor the team in the absence of a team lead. Monitoring the queue and handling chat transfers as well as adherence to their scheduled breaks.</li>
@@ -61,26 +85,79 @@
                             <li>Supporting agents using VPNs such Global Protect and CAC and installing certificates available to them.</li>
                             <li>Experience in network troubleshooting such as verifying network status, making sure nic card is reachable, ping test, ipconfig and flush.</li>
                         </ul>
-                </ul>
-        </ul>
-    <hr/>
+                  </div>
+                  <small class="opacity-50 text-nowrap">2020-Present</small>
+                </div>
+            </div>
+          </div>
 
-    <h2>Skills</h2>
-        <ul>
-            <li>Hardware and software troubleshooting 	&#11088&#11088&#11088&#11088</li>
-            <li>Proficient in MS Word, PowerPoint, Excel &#11088&#11088&#11088</li>
-            <li>Capable of installing windows OS. &#11088&#11088&#11088</li>
-            <li>Basic virtual desktop troubleshooting (VMware and Citrix). &#11088&#11088&#11088</li>
-            <li>Basic knowledge in Photoshop and Adobe Premiere Pro. &#11088&#11088</li>
-            <li>Basic knowledge in network configuration and troubleshooting. &#11088&#11088</li>
-        </ul>
-    <hr/>
+        
+        <div class="container px-4 py-5" id="icon-grid">
+            <h2 class="pb-2 border-bottom">Skills</h2>
+        
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+              <div class="col d-flex align-items-start gap-3">
+                <img src="./Images/hardware.PNG"  height="50px" width="50px" class="icon">
+                <div>
+                  <h3 class="fw-bold mb-2 fs-4">Hardware Troubleshooting</h3>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start gap-3">
+                <img src="./Images/ms.PNG" height="50px" width="50px" class="icon">
+                <div>
+                  <h3 class="fw-bold mb-2 fs-4">Proficient in MS applications</h3>
+                    <p>Word, PowerPoint, Excel, Outlook, etc.</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start gap-3">
+                <img src="./Images/virtual.PNG" height="50px" width="50px" class="icon">
+                <div>
+                  <h3 class="fw-bold mb-2 fs-4">Virtual Desktop Application Troubleshooting</h3>
+                    <p>VMware, Citrix, AVD</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start gap-3">
+                <img src="./Images/edit.PNG" height="50px" width="50px" class="icon">
+                <div>
+                  <h3 class="fw-bold mb-2 fs-4">Editing</h3>
+                    <p>Adobe Photoshop and Premiere</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start gap-3">
+                <img src="./Images/program.PNG" height="50px" width="50px" class="icon">
+                <div>
+                  <h3 class="fw-bold mb-2 fs-4">Programming</h3>
+                  <p>HTML, CSS, Bootstrap, C++</p>
 
-    <h2>Other</h2>
-        <ul>
-            <li><a href="./Hobbies.html">My Hobbies</a></li>
-            <li><a href="./Contact.html">Contact Me</a></li>
-        </ul>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start gap-3">
+                <img src="./Images/network.PNG" height="50px" width="50px" class="icon">
+                <div>
+                  <h3 class="fw-bold mb-2 fs-4">Network Troubleshooting</h3>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+    </div>
+
+    <section class="gradient">
+        <footer class="py-1 my-0">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">LinkedIn</a></li>
+            <li class="nav-item"><a href="mailto:junellelim618@gmail.com" class="nav-link px-2 text-white">E-mail</a></li>
+            <li class="nav-item"><a href="" class="nav-link px-2 text-white">Personal Website</a></li>
+          </ul>
+          <p class="text-center text-white">© 2023 Junelle Lim</p>
+        </footer>
+      </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
 </body>
-<footer> &copy Junelle Lim. All Rights Reserved. </footer>
+
 </html>
