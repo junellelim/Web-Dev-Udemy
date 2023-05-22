@@ -12,9 +12,9 @@
 }
 
 #hero{
-    background-color: #18191a;
+    background-color: #18191A;
     color: #DDD1A3;
-
+    margin: 0;
 }
 
 .btn:hover{
@@ -23,11 +23,6 @@
     background-color: #DDD1A3;
 }
 
-.card-cover {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
 
 #logo{
     background-color: black;
@@ -41,4 +36,37 @@
 
 #work:hover{
     opacity: 0;
+}
+
+.card:hover{
+    transform: translate3D(0,-1px,0) scale(1.25);
+    transition: transform 0.5s;
+}
+
+.carousel-inner{
+    height: 500px;
+    border-radius: 50px;
+}
+
+#project{
+    background-color: #18191a;
+    padding-top: 50px;
+    color: #DDD1A3;
+}
+
+#interest{
+    background-color: #DDD1A3;
+    
+}
+
+#contact{
+    background-color: #18191A;
+    color: #DDD1A3;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#footer{
+    background-color: #2B3035;
+    color: #DDD1A3;
 }
